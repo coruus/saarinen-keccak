@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+wget http://www.mjos.fi/dist/readable_keccak.tgz
+wget -p http://keccak.noekeon.org/readable_code.html
+atool -x readable_keccak.tgz
+kck256sum $(find) > SHAKE256SUMS
