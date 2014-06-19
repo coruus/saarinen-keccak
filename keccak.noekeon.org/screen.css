@@ -1,0 +1,255 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    font: 10pt Verdana, Arial, sans-serif;
+    background: #e0f0e0;
+}
+
+:link { color: rgb(51,102,51); text-decoration: none; }
+:visited { color: rgb(51,102,51); text-decoration: none; }
+a:active { color: rgb(51,102,51); text-decoration: underline; }
+a:hover { text-decoration: underline; }
+
+#main {
+    background: #ffffff;
+    margin: 0 auto;
+    min-width: 750px;
+    max-width: 80em;
+    line-height: 1.0;
+}
+
+#title {
+    margin: 0 0 1ex 0;
+    padding: 1ex 0 1ex 1em;
+    border-left: 1px solid #e0f0e0;
+    clear: right;
+    background: #e0f0e0;
+}
+
+#title h1 {
+    line-height: 1.3;
+    text-align: center;
+}
+
+#title #titlePicture {
+    float: right;
+    margin: 0ex 0em 1ex 1em;
+    width: 16em;
+    padding: 0 1em 0 1em;
+}
+
+#rightpane {
+    float: right;
+    line-height: 1.5;
+    width: 16em;
+    padding: 0 1em 0 1em;
+}
+
+#rightpane p {
+    font-size: smaller;
+}
+
+#rightpane ul {
+    font-size: smaller;
+    padding-left: 2em;
+    margin-left: 0;
+}
+
+#rightpane h2 {
+    font-size: larger;
+}
+
+#rightpane h3 {
+    font-size: smaller;
+}
+
+#rightpane .newsitem {
+    font-size: smaller;
+    padding: 1ex 1em 1ex 1em;
+    margin-top: 2ex;
+    color: #505050;
+    background-color: #f4f4f4;
+    line-height: 1.2;
+}
+
+#rightpane .newsitem :link { color: #505050; text-decoration: none; }
+#rightpane .newsitem :visited { color: #505050; text-decoration: none; }
+#rightpane .newsitem a:hover { text-decoration: underline; }
+
+#content {
+    line-height: 1.3;
+    text-align: justify;
+    margin: 0 18em 0 1em;
+    padding: 0 1em 0 1em;
+    border-right:  2px dotted rgb(105,155,225);
+}
+
+h2 {
+    margin: 0 0 1.5ex 0;
+    border-bottom: 2px dotted rgb(105,155,225);
+}
+
+h3 {
+    margin: 2ex 0 1ex 0;
+}
+
+p.authors {
+    text-align: center;
+}
+
+p.authors .author-name {
+    font-weight: bold;
+    color: rgb(79,116,169);
+}
+
+p.authors .author-name :link { color: rgb(79,116,169); text-decoration: none; }
+p.authors .author-name :visited { color: rgb(79,116,169); text-decoration: none; }
+p.authors .author-name a:active { color: rgb(79,116,169); text-decoration: underline; }
+p.authors .author-name a:hover { text-decoration: underline; }
+
+p.affiliation {
+    text-align: center;
+    line-height: 1.0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#footer {
+    clear: both;
+    margin: 0 auto;
+    padding: 1ex 1em 2ex 1em;
+    border-top: 2px dotted #c0c0c0;
+    width: 90%;
+    color: #808080;
+    font-size: smaller;
+    line-height: 1.1;
+}
+
+#footer p {
+    margin-top: 1ex;
+    margin-bottom: 1ex;
+}
+
+#footer a {
+    color: #808080;
+    text-decoration: underline;
+}
+
+img {
+    border: 0;
+}
+
+.sc {
+    font-variant: small-caps;
+}
+
+div.figure {
+    text-align: center;
+}
+
+div.figure p.caption {
+    font-size: smaller;
+    font-weight: bold;
+}
+
+p.newsdate {
+    text-align: right;
+    color: #808080;
+}
+
+pre {
+    font-size: 10pt;
+    background-color: #F0F0F0;
+}
+
+pre .comment {
+    color: #339966;
+    font-style: italic;
+}
+
+pre .keyword {
+    color: #0000C0;
+    font-weight: bold;
+}
+
+pre .function {
+    color: #000000;
+    font-weight: bold;
+}
+
+
+table.normal {
+    border: solid;
+    border-color: rgb(208,208,208);
+    border-width: 1px;
+    margin: 1ex 1em 1ex 1em;
+    font-size: 100%;
+}
+
+table.normal th {
+    background-color: rgb(240,240,240);
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+    padding-top: 0.2ex;
+    padding-bottom: 0.2ex;
+    font-weight: bold;
+    text-align: left;
+}
+
+table.normal td {
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+    padding-top: 0.2ex;
+    padding-bottom: 0.2ex;
+}
+
+table.compact {
+    border: solid;
+    border-color: rgb(208,208,208);
+    border-width: 1px;
+    margin: 1ex 0em 1ex 0em;
+    font-size: 9pt;
+}
+
+table.compact th {
+    background-color: rgb(240,240,240);
+    padding-left: 0.1em;
+    padding-right: 0.1em;
+    padding-top: 0.1ex;
+    padding-bottom: 0.1ex;
+    font-weight: bold;
+    text-align: left;
+}
+
+table.compact td {
+    padding-left: 0.1em;
+    padding-right: 0.1em;
+    padding-top: 0.1ex;
+    padding-bottom: 0.1ex;
+}
+
+table td.right {
+    text-align: right;
+}
+
+table tr.even {
+    background-color: rgb(255,255,255);
+}
+
+table tr.odd {
+    background-color: rgb(240,240,240);
+}
+
+table tr.high {
+    background-color: rgb(255,240,160);
+    color: rgb(160, 0, 0);
+}
+
+table tr.low {
+    color: rgb(128, 128, 128);
+}
+
+p.high {
+    background-color: #F0F0F0;
+    padding: 1ex 1em 1ex 1em;
+}

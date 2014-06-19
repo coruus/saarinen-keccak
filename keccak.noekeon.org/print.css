@@ -1,0 +1,85 @@
+body {
+    font: 10pt Verdana, Arial, sans-serif;
+}
+
+:link { color: rgb(51,102,51); text-decoration: none; }
+:visited { color: rgb(51,102,51); text-decoration: none; }
+
+#main {
+    max-width: 75em;
+}
+
+#title h1 {
+    line-height: 1.3;
+    text-align: center;
+}
+
+#rightpane p {
+    font-size: smaller;
+}
+
+#rightpane ul {
+    font-size: smaller;
+    padding-left: 2em;
+    margin-left: 0;
+}
+
+#rightpane h3 {
+    font-size: smaller;
+}
+
+#content {
+    line-height: 1.3;
+    text-align: justify;
+}
+
+h2 {
+    border-bottom: 2px dotted rgb(105,155,225);
+}
+
+p.authors {
+    text-align: center;
+}
+
+p.authors .author-name {
+    font-weight: bold;
+    color: rgb(79,116,169);
+}
+
+p.authors .author-name :link { color: rgb(79,116,169); text-decoration: none; }
+p.authors .author-name :visited { color: rgb(79,116,169); text-decoration: none; }
+
+p.affiliation {
+    text-align: center;
+    line-height: 1.0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#footer {
+    border-top: 2px dotted #c0c0c0;
+    color: #808080;
+    font-size: smaller;
+}
+
+#footer a {
+    text-decoration: none;
+}
+
+
+img {
+    border: 0;
+}
+
+.sc {
+    font-variant: small-caps;
+}
+
+div.figure {
+    text-align: center;
+}
+
+div.figure p.caption {
+    font-size: smaller;
+    font-weight: bold;
+}
